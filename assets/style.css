@@ -45,7 +45,9 @@ header li a {
 #Download-Resume {
   padding: 6px 16px;
   text-decoration: none;
-  border: rgb(255, 181, 0) solid;
+  border: white solid;
+  background-color: #155eb1;
+  color: black;
   border-radius: 25px;
   letter-spacing: 2px;
   color: #ffff;
@@ -83,46 +85,78 @@ header li a {
   font-weight: bold;
 }
 
-#about {
+#paragraph {
   color: #7393B3;
   margin-top: 5%;
   margin-bottom: 10%;
   font-size: 20px;
+  line-height: 50px;
 }
 
 section h3 {
   color: #7393B3;
-  font-size: 30px;
   text-align: center;
 }
 
-#first-picture {
-  height: 450px;
+#card img {
+  height: 400px;
   width: 100%;
   border: 6px inset #96DED1;
-  display: flex 
 }
 
-#second-picture, #fourth-picture {
-  height: 300px;
-  width: 45%;
-  border: 6px inset #96DED1;
-  display: inline-flex;
-  float: left;
-}
+.row1 {
+  display: flex;
+  }
 
-#third-picture, #fifth-picture {
-  height: 300px;
-  width: 45%;
-  border: 6px inset #96DED1;
-  display: inline-flex; 
-  float: right;
-}
-
-#sixth-picture {
-  height: 300px;
+.card1 {
   width: 100%;
-  border: 6px inset #96DED1;
-  display: flex 
+  margin: 10px;
+  margin-bottom: 100px;
+  padding: 10px;
+  height: 200px;
+  text-align: center;
 }
 
+.row2 {
+  display: flex;
+  text-align: center;
+  }
+
+.card2 {
+  width: 30%;
+  padding: 80px;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 200px;
+  justify-content: flex-start;
+}
+
+.card1 img, .card2 img {
+  border: 6px inset #96DED1;
+  }
+
+
+footer {
+  background-color: black;
+  height: 80px;
+  width: 100% ;
+  align-content: center;
+  flex: auto;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer li {
+  display: inline;
+  align-items: center;
+}
+footer li a {
+  display: inline;
+  color: whitesmoke;
+  text-decoration: none;
+  }
