@@ -6,7 +6,7 @@ For this homework assignment, I created my own portfolio using HTML & CSS. This 
 
 ## Usage
 
-![Screenshot](assets/images/Portfolio Screenshot.png)
+![Screenshot](assets/images/PortfolioScreenshot.png)
 
 ## Links
 
