@@ -9,7 +9,7 @@ For this homework assignment, I created my own portfolio using HTML & CSS. This 
 ![Screenshot](assets/images/PortfolioScreenshot.png)
 
 ## Links
-
+https://cbursch13.github.io/Professional-Portfolio/
 
 ## License
 
