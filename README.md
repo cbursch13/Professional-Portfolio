@@ -1,4 +1,4 @@
-# 01 Professional Portfolio
+# Professional Portfolio
 
 ## Description
 
